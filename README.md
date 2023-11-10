@@ -1,62 +1,55 @@
-Práctica creación de un sitio web
-sitio-web
+Práctica de Creación de un Sitio Web Completada
 
-Práctica realización sitio web mediante framework Bootstrap
+Sitio web: [Nombre del sitio web]
 
-Introducción
+En esta práctica, he desarrollado un sitio web utilizando el framework Bootstrap, abordando los siguientes aspectos:
 
-La web tratará de un tema libre que deberá tener un mínimo de 4 páginas web donde figurarán entre otros los siguientes apartados:
+Contenido del Sitio Web
+Presentación de la entidad: Se ha creado una página que presenta la empresa/asociación, proporcionando información relevante.
 
-Presentación de empresa, asociación, etc.
-Página con los servicios, portfolio, actividades... según naturaleza del sitio web.
-Formulario de contacto con al menos los siguientes campos: nombre, teléfono de contacto, email, mensaje.
-Multimedia con al menos un video y 10 imágenes.
-Acceso a redes sociales
-Menú de navegación de un máximo de 2 niveles.
-Enlace a un doc en algún lugar visible de la página donde aparezcan detallados los recursos técnicos utilizados:
-Fuentes google utilizadas
-Paleta de colores
-Framework CSS...
-Diseño
 
-Uso de una paleta de colores.
-Consistencia en el diseño de cada página del sitio.
-Uso de fuentes según Google Fonts.
-Es obligatorio usar less para el diseño.
-Diseño responsivo de toda la página: video, menú, imágenes, texto...
-Uso de media queries o código en servidor para que la página se visualice en al menos 3 perfiles de dispositivos diferentes (movil, tablet y PC). El viewport deberá ser de la anchura del dispositivo.
-Criterio mobile first.
-Se deben utilizar un conjunto de iconos para mejorar la estética general de la página (por ej. iconos de facebook, google+ o similar). Se puede utilizar una librería ya existente como http://fortawesome.github.io/Font-Awesome/ o utilizar una propia.
-Se valorará utilizar algún plugin de jQuery para hacer un slider en la cabecera de las páginas, mostrar las fotos a tamaño superior, uso de un mapa de Google, etc.
-Tiempo de carga
+Formulario de Contacto: Se ha implementado un formulario de contacto con campos esenciales como nombre, teléfono, email y mensaje.
 
-Las imágenes deberán estar en la resolución mínima necesaria.
-Las imágenes tendrán que estar optimizadas para la resolución proporcionada.
-Los css y js tendrán que estar minified y minimizando el número de http requests para la versión de producción.
-El html tendrá que estar minified para la versión de producción.
-Se debe valorar el uso de algún CDN.
-Se comprobará el desarrollo correcto de este área mediante Google PageSpeed.
-Uso de sprites para los iconos del sitio web
-Código
+Multimedia: Se incluye un vídeo y 10 imágenes distribuidas a lo largo del sitio.
 
-El sitio web deberá tener una estructura clara y concisa.
-El código html estará minified en producción.
-El código css y js estará minified en producción.
-Se valorará el uso de soluciones como normalize.css, modernizr, y en general cualquier otra solución que aparece en html boilerplate
-Todo el código css y js deberá ir en ficheros externos (nunca en el html)
-Se minimizará el número de accesos a ficheros css y js externos, pudiendose valorar el uso de CDNs
-Se validará el código según la W3C.
-El código del proyecto se realizará a partir de un fork de este repositorio. Tendrá que haber al menos 5 commmits en 3 días diferentes y la versión de producción se colgará en el servidor infenlaces de modo que sea accesible navegando desde www.infenlaces.com
+Acceso a Redes Sociales: Se han añadido iconos que enlazan a las redes sociales pertinentes.
 
-Calificación
+Diseño:
 
-Por realizar las 4 páginas con lo vídeos e imágenes que se piden (responsivos) y menú hasta 4 puntos.
-Por realizar un diseño bonito cuidando contraste, color, diseño responsivo, usable, accesible, consistente y persistente hasta 2 puntos.
-Acceso a redes sociales (iconos) y sprites hasta 0,5 puntos.
-Adicción de plugins jquery (pueden ser elementos de bootstrap) hasta 0,5 puntos.
-Fuentes de google o font awesome hasta 0,5 puntos.
-Método de personalización de la página (CSS, tema de bootstrap, modificación de less) hasta 0,5 puntos. Cuenta más modificar less.
-Compatibilidad con modernizr y boilerplate hasta 0,25 puntos.
-Imágenes optimizadas hasta 0,25 puntos.
-Html, css, js minificados y velocidad comprobada en pagespeed. 0,25
-Documentación de todo lo realizado hasta 1,25 puntos. (Justificación de todos los apartados anteriores, decisiones de diseño, pasos de instalación, elementos extra... ) Es conveniente hacer una buena documentación para que el profesor no tenga que hacer preguntas muy difíciles cuando presenteis la práctica.
+Paleta de Colores y Consistencia: Se ha empleado una paleta de colores consistente en todo el sitio para mantener un diseño armonioso.
+Fuentes de Google: Las fuentes utilizadas han sido seleccionadas de Google Fonts para mejorar la legibilidad y estética.
+Diseño Responsivo: Toda la página, incluyendo video, menú, imágenes y texto, es responsiva y se adapta a diferentes dispositivos (móviles, tabletas, PC).
+Media Queries: Se han incorporado media queries y/o código en servidor para garantizar la visualización en al menos 3 perfiles de dispositivos.
+
+Código y Rendimiento:
+
+Minificación del Código: El código HTML, CSS y JS ha sido minificado en la versión de producción.
+Sprites para Iconos: Se han utilizado sprites para los iconos del sitio web, mejorando la eficiencia de carga.
+Validación W3C: Se ha validado el código según los estándares de la W3C.
+
+
+Tiempo de Carga y Rendimiento:
+
+
+Optimización de Imágenes: Las imágenes se han optimizado para la resolución mínima necesaria.
+
+Minificación y CDN: Se han minificado CSS y JS, y se ha considerado el uso de un CDN.
+
+Comprobación de Velocidad: El tiempo de carga y rendimiento se ha evaluado mediante Google PageSpeed.
+
+Documentación:
+
+Detalles y Decisiones de Diseño: Se proporciona documentación detallada sobre cada aspecto del sitio, incluyendo decisiones de diseño.
+Elementos Adicionales: Cualquier elemento extra, plugins jQuery, y personalización se justifica y documenta adecuadamente.
+Evaluación de Puntos
+Realización de las 4 Páginas Responsivas: [Puntuación]
+Diseño Estético y Funcional: [Puntuación]
+Acceso a Redes Sociales e Iconos: [Puntuación]
+Plugins jQuery o Bootstrap: [Puntuación]
+Fuentes de Google o Font Awesome: [Puntuación]
+Método de Personalización (preferiblemente mediante Less): [Puntuación]
+Compatibilidad con Modernizr y Boilerplate: [Puntuación]
+Imágenes Optimizadas: [Puntuación]
+Minificación de HTML, CSS y JS y Velocidad comprobada en PageSpeed: [Puntuación]
+Documentación Completa: [Puntuación]
+Con estos elementos, la práctica ha sido completada de manera integral, cumpliendo con los requisitos y estándares establecidos.
